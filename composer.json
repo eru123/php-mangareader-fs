@@ -1,0 +1,21 @@
+{
+    "name": "eru123/mangareader-fs",
+    "description": "PHP manga reader app based on local files using Linker",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jericho Aquino",
+            "email": "yeoligoakino@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "eru123/linker": "^1.38"
+    },
+    "autoload": {
+        "psr-4": {
+            "MangaReaderFS\\": "src/"
+        }
+    }
+}
